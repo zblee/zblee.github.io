@@ -1,20 +1,20 @@
 # Site settings
-title: Your site
+title: /zblee
 description: >
-    Your description
-author: Your name
-email: your@e.mail
+    chroot /zblee
+author: zblee
+email: zbleecn@qq.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourname.github.io" # the base hostname & protocol for your site
-twitter_username: YourTwitter
-github_username:  YourGitHub
+url: "https://zblee.github.io" # the base hostname & protocol for your site
+twitter_username: zb1ee
+github_username:  zblee
 
-disqus_shortname: YourDisqusShortname
+# disqus_shortname: zblee
 
 # Build settings
 include: [_pages]
 markdown: kramdown
-permalink: /:year/:month/:title
+permalink: /:year-:month/:title
 sass:
     style: compressed
 
